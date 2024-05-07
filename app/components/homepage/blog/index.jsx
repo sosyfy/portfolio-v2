@@ -6,9 +6,11 @@ import BlogCard from './blog-card';
 function Blog({ blogs }) {
 
   return (
-    <div id='blogs' className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
-      <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl  opacity-20"></div>
-
+    <div
+      id="blogs"
+      className="relative z-50 border-t mb-12 lg:mb-24 border-[#25213b]"
+    >
+      <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-0 md:top-6 left-1/2 -translate-x-1/2 filter blur-3xl  opacity-20"></div>
       <div className="flex justify-center -translate-y-[1px]">
         <div className="w-3/4">
           <div className="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent  w-full" />
@@ -26,12 +28,15 @@ function Blog({ blogs }) {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 lg:gap-8 xl:gap-10">
-        {
-          blogs.slice(0, 6).map((blog, i) => (
-            blog?.cover_image &&
-            <BlogCard blog={blog} key={i} />
-          ))
-        }
+        {blogs.slice(0, 6).map(
+          (blog, i) =>
+            blog?.cover_image && (
+              <BlogCard
+                blog={blog}
+                key={i}
+              />
+            ),
+        )}
       </div>
 
       <div className="flex justify-center  mt-5 lg:mt-12">
@@ -45,7 +50,7 @@ function Blog({ blogs }) {
         </Link>
       </div>
     </div>
-  );
+  )
 };
 
 export default Blog;
