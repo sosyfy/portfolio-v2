@@ -31,7 +31,7 @@ function HeroSection() {
             .
           </h1>
 
-          <div className="my-12 hidden items-center gap-5">
+          <div className="my-12 hiddn flex items-center gap-5">
             <Link
               href={personalData.github}
               target='_blank'
@@ -53,13 +53,13 @@ function HeroSection() {
             >
               <FaFacebook size={30} />
             </Link>
-            <Link
+            {/* <Link
               href={personalData.leetcode}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <SiLeetcode size={30} />
-            </Link>
+            </Link> */}
             <Link
               href={personalData.twitter}
               target='_blank'
