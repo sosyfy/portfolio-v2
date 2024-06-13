@@ -10,7 +10,7 @@ import './css/globals.scss'
 const fontDmMono = DM_Mono({
   subsets: ['latin'],
   display: 'swap',
-  weight: '400',
+  weight: ['400', '500'],
   variable: '--font-dm-mono',
 })
 
