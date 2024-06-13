@@ -6,9 +6,9 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
   {
     id: 1,
-    name: 'PDF AI - Full Stack saas App ',
+    name: 'PDF AI Platform',
     description:
-      'PDF AI is a platform that redefines how users interact with PDF documents. Using advanced AI and natural language processing (NLP), PDF AI lets users chat with their PDFs to get summaries, ask questions, and extract information instantly. This project demonstrates my skills in integrating cutting-edge AI with intuitive design, creating a tool that streamlines document analysis for researchers, legal professionals, and financial experts.',
+      'PDF AI is a full-stack saas platform that redefines how users interact with PDF documents. Using advanced AI and natural language processing (NLP), PDF AI lets users chat with their PDFs to get summaries, ask questions, and extract information instantly. This project demonstrates my skills in integrating cutting-edge AI with intuitive design, creating a tool that streamlines document analysis for researchers, legal professionals, and financial experts.',
     tools: [
       'Next js',
       'Typescript',
@@ -26,9 +26,9 @@ export const projectsData = [
   },
   {
     id: 2,
-    name: 'Course-Gen AI - Full-Stack saas App',
+    name: 'Course-Gen AI Platform',
     description:
-      'Course Gen is a SaaS platform that creates custom course curriculums based on user-defined topics and titles. By harnessing AI agents, it generates structured course outlines, recommends relevant YouTube videos, and creates quizzes for each module. With integrated payment gateways and tiered subscriptions, Course Gen offers a scalable and interactive learning solution. This project showcases my expertise in building AI-driven platforms for e-learning with seamless user experiences',
+      'Course Gen is a full-stack SaaS platform that creates custom course curriculums based on user-defined topics and titles. By harnessing AI agents, it generates structured course outlines, recommends relevant YouTube videos, and creates quizzes for each module. With integrated payment gateways and tiered subscriptions, Course Gen offers a scalable and interactive learning solution. This project showcases my expertise in building AI-driven platforms for e-learning with seamless user experiences',
     tools: [
       'NextJS',
       'Tailwind CSS',
